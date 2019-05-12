@@ -2,6 +2,8 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Crystals Collector</title>
         <link rel="stylesheet" href="Assets/css/reset.css" type="text/css">
         <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
@@ -17,14 +19,28 @@
             </div>
 
             <!--Directions-->
+            <div id="directions">
+                Directions: 
+                <br>
+                1... 
+                <br>
+                2...
+                <br>
+                3...
+                <br>
+                4...
+            </div>
 
             <!--Random Number Box-->
-            <h2><span id="random-number"></span></h2>
+            <di id="row1">
+                <h2><span id="random-number"></span></h2>
 
             <!--Wins/Losses-->
-            <h3><span id="number-of-wins"></span></h3>
-            <h3><span id="number-of-losses"></span></h3>
-
+                <div id="standings">
+                    <h3><span id="number-of-wins"></span></h3>
+                    <h3><span id="number-of-losses"></span></h3>
+                </div> 
+            </div>
             <!--Crystal 1-->
             <input type="image" id="crystal-one" src="assets/images/redCrystal.jpg">
 
@@ -38,9 +54,14 @@
             <input type="image" id="crystal-four" src="assets/images/greenCrystal.jpeg">
 
             <!--Total Score Heading-->
+            <div id="total-score-heading">
+                <h3>Your total score is:</h3>
+            </div>
 
             <!--Total Score-->
-            <h2><span id="current-score"></span></h2>
+            <div id="score">
+                <h3><span id="current-score"></span></h2>
+            </div>
 
         </main>
     </body>

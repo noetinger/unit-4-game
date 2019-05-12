@@ -57,25 +57,25 @@ $("#current-score").text(userScore)
 //Click and Add Score to User Score.
 $("#crystal-one").on("click", function() {
     userScore = userScore + crystalNumOne
-    $("#current-score").text("Current score: " + userScore);
+    $("#current-score").text(userScore);
     comparisonCheck();
     });
 
 $("#crystal-two").on("click", function() {
     userScore = userScore + crystalNumTwo
-    $("#current-score").text("Current score: " + userScore);
+    $("#current-score").text(userScore);
     comparisonCheck();
     });
 
 $("#crystal-three").on("click", function() {
     userScore = userScore + crystalNumThree
-    $("#current-score").text("Current score: " + userScore);
+    $("#current-score").text(userScore);
     comparisonCheck();
     });
 
 $("#crystal-four").on("click", function() {
     userScore = userScore + crystalNumFour
-    $("#current-score").text("Current score: " + userScore);
+    $("#current-score").text(userScore);
     comparisonCheck();
     });
 
