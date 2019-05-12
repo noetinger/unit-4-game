@@ -7,11 +7,10 @@
         <title>Crystals Collector</title>
         <link rel="stylesheet" href="Assets/css/reset.css" type="text/css">
         <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
-
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
     </head>
-    <body>
+    <body background="assets/images/bananas.png">
         <main>
             <!--Heading-->
             <div>
@@ -22,22 +21,32 @@
             <div id="directions">
                 Directions: 
                 <br>
-                1... 
                 <br>
-                2...
+                You will be given a random number at the start of the game.
                 <br>
-                3...
                 <br>
-                4...
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                <br>
+                <br>
+                You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+                <br>
+                <br>
+                The value of each crystal is hidden from you until you click on it.
+                <br>
+                <br>
+                Each time when the game starts, the game will change the values of each crystal.
             </div>
 
             <!--Random Number Box-->
-            <di id="row1">
+            <div id="row1">
                 <h2><span id="random-number"></span></h2>
 
             <!--Wins/Losses-->
                 <div id="standings">
+                    <h3><span id="result"></span></h3>
+                    <br>
                     <h3><span id="number-of-wins"></span></h3>
+                    <br>
                     <h3><span id="number-of-losses"></span></h3>
                 </div> 
             </div>

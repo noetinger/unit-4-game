@@ -21,6 +21,7 @@ crystalNumFour = Math.floor((Math.random() * 12 ) + 1);
 //Win Game and Reset
 function comparisonCheck(){
     if (userScore === goalRandomNumber){
+    $("#result").text("You Win!");
     (numberOfWins++);
     $("#number-of-wins").text("Wins: " + numberOfWins);
     goalRandomNumber = Math.floor((Math.random() * 120) + 19);
@@ -36,6 +37,7 @@ function comparisonCheck(){
     
     //Lose Game and Reset
     else if (userScore > goalRandomNumber){
+    $("#result").text("You lose!");
     (numberOfLosses++);
     $("#number-of-losses").text("Losses: " + numberOfLosses);
     goalRandomNumber = Math.floor((Math.random() * 120) + 19);
